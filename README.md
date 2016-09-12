@@ -3,11 +3,13 @@ Trabalho do serviço de Chat
 
 
 ----Pastas-----
+
 1.Utils - Códigos de Exemplo 
 
 
 
 ----Descrição-----
+
 Implementar um serviço de chat que possibilite:
 
 	1-envio de mensagens para um grupo de pessoas(multcast ip)
