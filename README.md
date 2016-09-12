@@ -18,7 +18,7 @@ Implementar um serviço de chat que possibilite:
 	4-uma interface de interações (GUI ou CLI)
 
 	PROTOCOLO TEXTUAL:
-		-JOIN [APELIDO]
+		-JOIN [APELIDO]|JOINACK[APELIDO]
 		-LEAVE [APELIDO]
 		-MSG [APELIDO] "texto"
 		-MSGIDV FROM [APELIDO] TO [APELIDO] "texto"
