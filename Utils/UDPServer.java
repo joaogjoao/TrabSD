@@ -14,7 +14,7 @@ public class UDPServer{
             aSocket = new DatagramSocket(6666); // cria um socket datagrama em uma porta especifica
             
             while(true){
-                byte[] buffer = new byte[1000]; // cria um buffer para receber requisições
+                byte[] buffer = new byte[1000]; // cria um buffer para receber requisies
 
 		/* cria um pacote vazio */
                 DatagramPacket request = new DatagramPacket(buffer, buffer.length);
